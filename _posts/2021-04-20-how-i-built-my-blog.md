@@ -47,5 +47,5 @@ need to figure out how to improve the styles of everything thoug
 
 [this is a hyperlink](https://google.com)
 
-![this is a hyperlink](/MetaImage.png "Text to show on mouseover")
+![this is a hyperlink]( "Text to show on mouseover")
 

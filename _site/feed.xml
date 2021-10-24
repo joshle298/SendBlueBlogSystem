@@ -1,51 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-24T02:05:27-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SendBlue</title><subtitle>This is SendBlue&apos;s Blog. The world&apos;s first iMessage API!</subtitle><author><name>GitHub User</name></author><entry><title type="html">How I Built My Blog</title><link href="http://localhost:4000/jekyll/2021/04/20/how-i-built-my-blog.html" rel="alternate" type="text/html" title="How I Built My Blog" /><published>2021-04-20T00:00:00-04:00</published><updated>2021-04-20T00:00:00-04:00</updated><id>http://localhost:4000/jekyll/2021/04/20/how-i-built-my-blog</id><content type="html" xml:base="http://localhost:4000/jekyll/2021/04/20/how-i-built-my-blog.html">&lt;p&gt;We’re building an awesome Next.js blog using Markdown.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Test 1&lt;/li&gt;
-  &lt;li&gt;Test 2&lt;/li&gt;
-  &lt;li&gt;Test 3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;hello&lt;/li&gt;
-  &lt;li&gt;world&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;~no way jose~&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;This&lt;/th&gt;
-      &lt;th&gt;Should&lt;/th&gt;
-      &lt;th&gt;This&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Be&lt;/td&gt;
-      &lt;td&gt;a&lt;/td&gt;
-      &lt;td&gt;Coumn&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Table&lt;/td&gt;
-      &lt;td&gt;son&lt;/td&gt;
-      &lt;td&gt;Is for demonstrative purposes&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;todo&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;done&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;good for roadmaps&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;need to figure out how to improve the styles of everything thoug&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://google.com&quot;&gt;this is a hyperlink&lt;/a&gt;&lt;/p&gt;</content><author><name>Nikita Jerschow</name></author><category term="jekyll" /><category term="jekyll" /><category term="theme" /><summary type="html">We’re building an awesome Next.js blog using Markdown.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-12-07T00:00:00-05:00</published><updated>2018-12-07T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-24T02:05:55-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SendBlue</title><subtitle>This is SendBlue&apos;s Blog. The world&apos;s first iMessage API!</subtitle><author><name>GitHub User</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-12-07T00:00:00-05:00</published><updated>2018-12-07T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -921,4 +874,6 @@ which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
       &lt;td&gt;lorem ipsum dolor sit amet consectetur&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Bart Simpson</name></author><category term="junk" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</summary></entry></feed>
+&lt;/table&gt;</content><author><name>Bart Simpson</name></author><category term="junk" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</summary></entry><entry><title type="html">My Example Post</title><link href="http://localhost:4000/junk/2016/08/12/my-example-post.html" rel="alternate" type="text/html" title="My Example Post" /><published>2016-08-12T00:00:00-04:00</published><updated>2016-08-12T00:00:00-04:00</updated><id>http://localhost:4000/junk/2016/08/12/my-example-post</id><content type="html" xml:base="http://localhost:4000/junk/2016/08/12/my-example-post.html">&lt;p&gt;Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.&lt;/p&gt;
+
+&lt;p&gt;No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.&lt;/p&gt;</content><author><name>GitHub User</name></author><category term="junk" /><summary type="html">Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</summary></entry></feed>

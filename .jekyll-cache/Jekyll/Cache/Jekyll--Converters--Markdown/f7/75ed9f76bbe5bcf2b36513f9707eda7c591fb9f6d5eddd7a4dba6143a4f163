@@ -1,4 +1,4 @@
-I"�<p>We’re building an awesome Next.js blog using Markdown.</p>
+I"@<p>We’re building an awesome Next.js blog using Markdown.</p>
 
 <ul>
   <li>Test 1</li>
@@ -46,7 +46,5 @@
 <hr />
 
 <p><a href="https://google.com">this is a hyperlink</a></p>
-
-<p><img src="" alt="this is a hyperlink" title="Text to show on mouseover" /></p>
 
 :ET

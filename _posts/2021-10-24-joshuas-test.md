@@ -1,8 +1,8 @@
 ---
 layout: post
-title: How I Built My Blog
-subheading: An in-depth look at the technical structure for my blog.
-author: Nikita Jerschow
+title: This is a Test
+subheading: The second post test
+author: Joshua Le
 categories: jekyll
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
@@ -17,34 +17,12 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 seoDescription: This is a lengthy description (look up how many characters is recommended for SEO descriptions) that will be as clickable as possible
-tags: jekyll theme
+tags: jekyll theme markdown
 sidebar: []
 ---
 
-We're building an awesome Next.js blog using Markdown.
-
-* Test 1
-* Test 2
-* Test 3
-
-1. hello 
-2. world
-
-~no way jose~
-
-| This | Should | This |
-| --- | --- | --- |
-| Be | a | Coumn |
-| Table | son | Is for demonstrative purposes |
-
-- [ ] todo
-- [x] done
-- [x] good for roadmaps
-
-need to figure out how to improve the styles of everything thoug
+This is joshua's test
 
 -----
 
-[this is a hyperlink](https://google.com)
-
-
+[this is a link to youtube](https://www.youtube.com)

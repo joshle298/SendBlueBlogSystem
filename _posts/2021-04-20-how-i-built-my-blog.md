@@ -3,7 +3,7 @@ layout: post
 title: How I Built My Blog
 subheading: An in-depth look at the technical structure for my blog.
 author: Nikita Jerschow
-categories:
+categories: jekyll
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true

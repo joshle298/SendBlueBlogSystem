@@ -3,7 +3,7 @@ layout: post
 title: This is a Test
 subheading: The second post test
 author: Joshua Le
-categories: jekyll
+categories: [jekyll]
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true

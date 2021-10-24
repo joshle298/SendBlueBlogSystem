@@ -17,7 +17,7 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 seoDescription: This is a lengthy description (look up how many characters is recommended for SEO descriptions) that will be as clickable as possible
-tags: jekyll theme
+tags: [jekyll] [theme]
 sidebar: []
 ---
 

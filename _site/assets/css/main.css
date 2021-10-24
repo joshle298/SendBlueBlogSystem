@@ -421,7 +421,7 @@ html[data-theme="dark"] .post-menu .post-menu-content ul a:hover { color: #fff !
 
 .theme-toggle .names { font-size: 1em; font-weight: bolder; width: 76%; margin-left: 12%; position: relative; display: flex; justify-content: space-between; user-select: none; }
 
-.theme-toggle .dark { opacity: .5; }
+.theme-toggle .dark { opacity: 1; }
 
 .theme-toggle p { color: #acacac; margin-bottom: 0; line-height: 24px; }
 

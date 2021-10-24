@@ -3,7 +3,7 @@ layout: post
 title: How I Built My Blog
 subheading: An in-depth look at the technical structure for my blog.
 author: Nikita Jerschow
-categories: jekyll
+categories:
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true
@@ -17,8 +17,7 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 seoDescription: This is a lengthy description (look up how many characters is recommended for SEO descriptions) that will be as clickable as possible
-tags: jekyll theme
-sidebar: []
+tags: [jekyll, theme]
 ---
 
 We're building an awesome Next.js blog using Markdown.

@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SendBlue
+title: SendBlue Blog
 email: your-email@domain.com
 author: GitHub User
 
@@ -117,11 +117,12 @@ yat:
 # orangered: #ff5100
 # greatgold: #f2cb05
 # greenblue: #389092
+# SendBlue: #00a6ff
 #
 # brand_color: orangered
 #
 # Custom color as below:
-# brand_color: "#1a8e42"
+ brand_color: "#00a6ff"
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift

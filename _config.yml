@@ -109,18 +109,18 @@ snowwhite: #ffffff
 theme_color: coolblack
 #
 #Custom color as below:
-theme_color: "#00a6ff"
+theme_color: "greatgold"
 
 # You can choose a brand color
 # Default brand colors as below:
 #orangered: #ff5100
-#greatgold: #f2cb05
+greatgold: #f2cb05
 #greenblue: #389092
 #
-brand_color: "#00a6ff"
+brand_color: "greatgold"
 #
 # Custom color as below:
-brand_color: "#00a6ff"
+brand_color: "greatgold"
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift
@@ -168,7 +168,7 @@ defaults:
 #   volume: 0               # Video volume (100% is 1.0)
 #   start_at: 0             # Video start time
    image: "/assets/images/banners/meta.png"         # Image banner source
-#   opacity: 1.0            # Banner opacity (100% is 1.0)
+   opacity: 1.0            # Banner opacity (100% is 1.0)
    background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
    height: "640px"         # Banner default height
 #   min_height: null        # Banner minium height

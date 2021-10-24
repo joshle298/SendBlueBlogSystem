@@ -103,11 +103,11 @@ yat:
 
 # You can choose a theme color
 # Default theme colors as below:
-# coolblack: #090a0b
+coolblack: #090a0b
 # spacegrey: #353535
 # snowwhite: #ffffff
 #
-# theme_color: snowwhite
+theme_color: coolblack
 #
 # Custom color as below:
 # theme_color: "#882250"
@@ -122,7 +122,7 @@ yat:
 # brand_color: orangered
 #
 # Custom color as below:
- brand_color: "#00a6ff"
+brand_color: "#00a6ff"
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift

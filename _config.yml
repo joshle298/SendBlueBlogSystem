@@ -27,8 +27,8 @@
 title: SendBlue
 email: your-email@domain.com
 author: GitHub User
-permalink: /:title
-destination: ./_site/blog
+permalink: https://sendblue.co/
+destination: https://sendblue.co/
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:

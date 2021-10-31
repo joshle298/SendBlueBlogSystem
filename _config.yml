@@ -27,8 +27,6 @@
 title: SendBlue
 email: your-email@domain.com
 author: GitHub User
-permalink: /:title
-destination: ./_site/blog
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -47,7 +45,7 @@ copyright: "SendBlue Co (cleft) 2017-{currentYear} {Joshua Le}"
 description: >- # this means to ignore newlines until "baseurl:"
   This is SendBlue's Blog. The world's first iMessage API!
 
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 

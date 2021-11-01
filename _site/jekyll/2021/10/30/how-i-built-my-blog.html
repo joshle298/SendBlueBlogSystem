@@ -7,22 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
 <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Welcome to Jekyll! | SendBlue</title>
+<title>How I Built My Blog | SendBlue</title>
 <meta name="generator" content="Jekyll v4.2.1">
-<meta property="og:title" content="Welcome to Jekyll!">
-<meta name="author" content="Jeffrey">
+<meta property="og:title" content="How I Built My Blog">
+<meta name="author" content="Nikita Jerschow">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.">
-<meta property="og:description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.">
-<link rel="canonical" href="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html">
-<meta property="og:url" content="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html">
+<meta name="description" content="We’re building an awesome Next.js blog using Markdown.">
+<meta property="og:description" content="We’re building an awesome Next.js blog using Markdown.">
+<link rel="canonical" href="http://localhost:4000/jekyll/2021/10/30/how-i-built-my-blog.html">
+<meta property="og:url" content="http://localhost:4000/jekyll/2021/10/30/how-i-built-my-blog.html">
 <meta property="og:site_name" content="SendBlue">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2018-12-07T00:00:00-05:00">
+<meta property="article:published_time" content="2021-10-30T00:00:00-04:00">
 <meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="Welcome to Jekyll!">
+<meta property="twitter:title" content="How I Built My Blog">
 <script type="application/ld+json">
-{"headline":"Welcome to Jekyll!","dateModified":"2018-12-07T00:00:00-05:00","datePublished":"2018-12-07T00:00:00-05:00","url":"http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html"},"author":{"@type":"Person","name":"Jeffrey"},"@type":"BlogPosting","description":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/jekyll/2021/10/30/how-i-built-my-blog.html","headline":"How I Built My Blog","dateModified":"2021-10-30T00:00:00-04:00","datePublished":"2021-10-30T00:00:00-04:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/2021/10/30/how-i-built-my-blog.html"},"author":{"@type":"Person","name":"Nikita Jerschow"},"description":"We’re building an awesome Next.js blog using Markdown.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" href="">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -120,7 +120,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
     display: none;
   }
 </style>
-<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 
@@ -651,17 +650,40 @@ function googleTranslateElementInit() {
   </style>
 <section class="page-banner">
     <div class="page-banner-img">
-<div style="background-image: url(https://bit.ly/3xTmdUP)"></div>
-        <img class="img-placeholder" src="https://bit.ly/3xTmdUP">
+<video autoplay="" poster="https://bit.ly/3xTmdUP" playsinline>
+          <source src="https://vjs.zencdn.net/v/oceans.mp4">
+        </source></video>
+        <script>
+          (function() {
+            var video = document.querySelector('.page-banner .page-banner-img > video');
+            var videoPlay = function() {
+              video.play().catch (function() {
+                  video.muted = true;
+                  video.play();
+                });
+            }
+
+            video.onloadstart = function() {
+              video.currentTime = 8.5;
+              video.volume = 0.8;
+              video.muted = (video.volume == 0);
+              videoPlay();
+            }
+
+            video.onended = function() {
+              video.currentTime = 8.5;
+              video.volume = 0;video.play();}
+          })();
+        </script>
 </div>
     <div class="wrapper">
       <div class="page-banner-inner">
 <header class="post-header">
-  <h1 class="post-title p-name" itemprop="name headline">Welcome to Jekyll!</h1>
-  <h2 class="post-subtitle">A awesome static site generator.</h2>
+  <h1 class="post-title p-name" itemprop="name headline">How I Built My Blog</h1>
+  <h2 class="post-subtitle">An in-depth look at the technical structure for my blog.</h2>
 
   <p class="post-meta">
-    <time class="dt-published" datetime="2018-12-07T00:00:00-05:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Dec 07, 2018
+    <time class="dt-published" datetime="2021-10-30T00:00:00-04:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Oct 30, 2021
     </time>
 
     
@@ -701,7 +723,7 @@ function googleTranslateElementInit() {
     <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
   </p>
 <div class="post-tags">
-<a class="post-tag" href="/tags.html#jekyll">#jekyll</a><a class="post-tag" href="/tags.html#theme">#theme</a><a class="post-tag" href="/tags.html#yat">#yat</a>
+<a class="post-tag" href="/tags.html#jekyll">#jekyll</a><a class="post-tag" href="/tags.html#theme">#theme</a>
 </div></header>
 </div>
     </div>
@@ -876,65 +898,70 @@ function googleTranslateElementInit() {
 
     <div class="post-content e-content" itemprop="articleBody">
 
-      <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+      <p>We’re building an awesome Next.js blog using Markdown.</p>
 
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<ul>
+  <li>Test 1</li>
+  <li>Test 2</li>
+  <li>Test 3</li>
+</ul>
 
-<h2 id="section-1">section 1</h2>
+<ol>
+  <li>hello</li>
+  <li>world</li>
+</ol>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>~no way jose~</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-<span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<table>
+  <thead>
+    <tr>
+      <th>This</th>
+      <th>Should</th>
+      <th>This</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Be</td>
+      <td>a</td>
+      <td>Coumn</td>
+    </tr>
+    <tr>
+      <td>Table</td>
+      <td>son</td>
+      <td>Is for demonstrative purposes</td>
+    </tr>
+  </tbody>
+</table>
 
-<h2 id="section-2">section 2</h2>
+<ul class="task-list">
+  <li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox" disabled>todo</li>
+  <li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox" disabled checked>done</li>
+  <li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox" disabled checked>good for roadmaps</li>
+</ul>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<p>need to figure out how to improve the styles of everything thoug</p>
 
-<p>$ a * b = c ^ b $</p>
+<hr>
 
-<p>$ 2^{\frac{n-1}{3}} $</p>
+<p><a href="https://google.com">this is a hyperlink</a></p>
 
-<p>$ \int_a^b f(x)\,dx. $</p>
-
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;iostream&gt;
-</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-  <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Hello World!"</span><span class="p">;</span>
-  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="c1">// prints 'Hi, Tom' to STDOUT.</span>
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
-  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
-
-<span class="n">p1</span> <span class="o">=</span> <span class="n">Person</span><span class="p">(</span><span class="s">"John"</span><span class="p">,</span> <span class="mi">36</span><span class="p">)</span>
-
-<span class="k">print</span><span class="p">(</span><span class="n">p1</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">p1</span><span class="p">.</span><span class="n">age</span><span class="p">)</span>
-</code></pre></div></div>
 
 
     </div>
 
 </article>
 <div class="post-nav">
-<a class="previous" href="/markdown/2018/12/05/an-exhibit-of-markdown.html" title="An exhibit of Markdown">An exhibit of Markdown</a><a class="next" href="/jekyll/2021/04/20/how-i-built-my-blog.html" title="How I Built My Blog">How I Built My Blog</a>
+<span></span><span></span>
 </div>
 <div class="post-related">
       <div>Related Articles</div>
       <ul>
-        <li><a class="post-link" href="/junk/2017/05/20/this-post-demonstrates-post-content-styles.html" title="How I Built My Blog">This post demonstrates post content styles</a></li>
-<li><a class="post-link" href="/markdown/2018/05/26/mathjax-test.html" title="How I Built My Blog">Mathjax Test</a></li>
-<li><a class="post-link" href="/markdown/2015/02/28/test-markdown.html" title="How I Built My Blog">Test markdown</a></li>
-<li><a class="post-link" href="/example/2017/12/18/video-example.html" title="How I Built My Blog">Video example</a></li>
+        <li><a class="post-link" href="/jekyll/2021/10/30/how-i-built-my-blog.html" title="">How I Built My Blog</a></li>
 </ul>
     </div>
 <div class="post-comments"></div></section>
@@ -1074,7 +1101,7 @@ function googleTranslateElementInit() {
 
   <div class="wrapper">
     <div class="site-footer-inner">
-<div>SendBlue Co <span class="copyleft">©</span> 2017-2021 {Joshua Le}</div>
+<div>SendBlue Co <span class="copyleft">©</span> 2021</div>
     </div>
   </div>
 </footer>
